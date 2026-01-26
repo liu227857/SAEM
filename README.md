@@ -1,7 +1,7 @@
 <h1 align="left"> Spherical Area-Preserving Parameterization</h1>
 
 <p align="left">
-  <img src="David_M.png" width="20%" >
+  <img src="David_M.png" width="20%" > &nbsp; &nbsp;
   <img src="David_S.png" width="20%" >
 </p>
 
@@ -29,8 +29,8 @@ Output:
 - `S`: `#V x 3` vertex coordinates of the spherical area-preserving map
 
 Optional Input:
-- `SphericalAEM( \_\_, "MaxIter", Value)`: the maximum iterative number (default: 100)
-- `SphericalAEM( \_\_, "Tol", Value)`: the tolerance of objective function deficit (default: 1e-5)
+- `SphericalAEM( __, "MaxIter", Value)`: the maximum iterative number (default: 100)
+- `SphericalAEM( __, "Tol", Value)`: the tolerance of objective function deficit (default: 1e-5)
 
 
 ---
