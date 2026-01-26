@@ -1,7 +1,7 @@
 <h1 align="left"> Spherical Area-Preserving Parameterization</h1>
 
 <p align="left">
-  <img src="David_M.png" width="20%" > &nbsp; &nbsp;
+  <img src="David_M.png" width="20%" > &nbsp; &nbsp; &nbsp;
   <img src="David_S.png" width="20%" >
 </p>
 
@@ -19,7 +19,7 @@ If you use this code in your own work, please cite the following paper:
 
 ---
 ### Main Function
-`\[S] = SphericalAEM(F, V)`
+`[S] = SphericalAEM(F, V)`
 
 Required Input:
 * `F`: `#F x 3` triangulations of an closed triangle mesh
