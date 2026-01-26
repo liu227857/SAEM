@@ -18,6 +18,7 @@ If you use this code in your own work, please cite the following paper:
 
 
 ---
+
 ### Main Function
 `[S] = SphericalAEM(F, V)`
 
@@ -34,6 +35,7 @@ Optional Input:
 
 
 ---
+
 ### License
 This software is released for academic and research purposes only.  
 Commercial use is not permitted without prior written permission from the authors.
