@@ -27,11 +27,27 @@ Required Input:
 * `V`: `#V x 3` vertex coordinates of a closed triangle mesh
 
 Output:
-- `S`: `#V x 3` vertex coordinates of the spherical area-preserving map
+- `S`: `#V x 3` vertex coordinates of a spherical area-preserving map
 
 Optional Input:
 - `SphericalAEM( __, "MaxIter", Value)`: the maximum iterative number (default: 100)
 - `SphericalAEM( __, "Tol", Value)`: the tolerance of objective function deficit (default: 1e-5)
+
+
+
+---
+
+### Other Functions
+Post-processing to enforce bijectivity
+`[S] = RiemanianBijectiveCorrection(F, S)`
+
+Required Input:
+* `F`: `#F x 3` triangulations of an closed triangle mesh
+* `S`: `#V x 3` vertex coordinates of a folded spherical map
+
+Output:
+- `S`: `#V x 3` vertex coordinates of the corrected spherical map
+
 
 
 ---
