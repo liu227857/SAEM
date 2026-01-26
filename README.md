@@ -1,0 +1,2 @@
+# SAEM
+Spherical authalic mapping
