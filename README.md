@@ -2,7 +2,7 @@
 
 <p align="left">
   <img src="David_M.png" width="20%" >
-  <img src="David_uv.png" width="20%" >
+  <img src="David_S.png" width="20%" >
 </p>
 
 <br clear="both" >
