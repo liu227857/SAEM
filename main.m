@@ -18,7 +18,7 @@
 %% Riemannian Bijective Correction
 %
 % Main prograom:
-% [S] = RiemanianBijectiveCorrection(F, S)
+% [S] = RiemannBijectCorr(F, S)
 %
 % Required Input:
 % F: #F x 3 triangulations of a closed triangle mesh
@@ -78,7 +78,7 @@ load('RightHand_Folding.mat');
 folding_plot_mesh(F, S);
 title('Folding Map')
 
-S = RiemanianBijectiveCorrection(F, S);
+S = RiemannBijectCorr(F, S);
 
 folding_plot_mesh(F, S);
 title('Bijective Map')
