@@ -37,8 +37,9 @@ Optional Input:
 
 ---
 
-### Other Functions
-Post-processing to enforce bijectivity
+### Other Function
+Post-processing to enforce bijectivity.
+
 `[S] = RiemanianBijectiveCorrection(F, S)`
 
 Required Input:
