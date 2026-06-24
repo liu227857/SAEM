@@ -40,7 +40,7 @@ Optional Input:
 ### Other Function
 Post-processing to enforce bijectivity.
 
-`[S] = RiemanianBijectiveCorrection(F, S)`
+`[S] = RiemannBijectCorr(F, S)`
 
 Required Input:
 * `F`: `#F x 3` triangulations of an closed triangle mesh
